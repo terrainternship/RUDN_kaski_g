@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']
+
+roboflow:
+  workspace: ekaterina-shipunova-lvtmb
+  project: hardhat-rhie5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ekaterina-shipunova-lvtmb/hardhat-rhie5/dataset/1
